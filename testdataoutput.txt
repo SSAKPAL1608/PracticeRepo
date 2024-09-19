@@ -1,0 +1,58 @@
+    1  git config email
+    2  git status
+    3  git init
+    4  git branch -M main
+    5  mkdir automation
+    6  pwd
+    7  cd automation
+    8  mkdir test
+    9  pwd
+   10   git config --global user.name "SSAKPAL1608"
+   11  git config --global user.email "shreyasakpal1608@gmail.com"
+   12  git init
+   13  ls
+   14  vi utility.txt
+   15  cat utility.txt 
+   16   git branch -M main
+   17  vi file.txt
+   18  cat file.txt 
+   19  git checkout -b shreya
+   20  git checkout -b main
+   21  git branch -M main
+   22  git status
+   23  mkdir folder1
+   24  ls
+   25  mkdir testdata
+   26  pwd
+   27  ls
+   28  ls -r
+   29  cd testdata
+   30  pwd
+   31  cd folder1
+   32  cd folder
+   33  cd folder1
+   34  git config --global user.email "shreyasakpal1608@gmail.com"
+   35  git config --global user.name "SSAKPAL1608"
+   36  mkdir shreya
+   37  cd shreya
+   38  mkdir repo
+   39  pwd
+   40  mkdir sampleproject
+   41  cd sampleproject/
+   42  pwd
+   43  git init
+   44  git branch -M main
+   45  vi test.txt
+   46  cat test.txt
+   47  git add "test.txt"
+   48  git commit -m "file add"
+   49  git push
+   50  git branch -M main
+   51  git remote add origin https://github.com/SSAKPAL1608/PracticeRepo.git
+   52  git push
+   53   git push --set-upstream origin main
+   54  history
+   55   history | grep upstream
+   56  ping github.com
+   57  history
+   58  history |tee testdataoutput.txt
